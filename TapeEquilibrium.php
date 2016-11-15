@@ -60,3 +60,41 @@ function solution($A) {
     }
     return min($sum);
 }
+/*
+
+▶ example
+example test ✔OK
+expand allCorrectness tests
+▶ double
+two elements ✔OK
+▶ simple_positive
+simple test with positive numbers, length = 5 ✔OK
+▶ simple_negative
+simple test with negative numbers, length = 5 ✔OK
+▶ small_random
+random small, length = 100 ✔OK
+▶ small_range
+range sequence, length = ~1,000 ✔OK
+▶ small
+small elements ✔OK
+expand allPerformance tests
+▶ medium_random1
+random medium, numbers from 0 to 100, length = ~10,000 ✔OK
+▶ medium_random2
+random medium, numbers from -1,000 to 50, length = ~10,000 ✔OK
+▶ large_ones
+large sequence, numbers from -1 to 1, length = ~100,000 ✔OK
+▶ large_random
+random large, length = ~100,000 ✔OK
+1. 0.055 s OK
+2. 0.056 s OK
+▶ large_sequence
+large sequence, length = ~100,000 ✔OK
+1. 0.036 s OK
+▶ large_extreme
+large test with maximal and minimal values, length = ~100,000 ✔OK
+1. 0.055 s OK
+2. 0.055 s OK
+3. 0.048 s OK
+
+*/
