@@ -1,11 +1,4 @@
 <?php
-/**
- * Created by PhpStorm.
- * User: XYL
- * Date: 15/11/2016 (015)
- * Time: 10:50
- */
-
 /*
 
 Task description
