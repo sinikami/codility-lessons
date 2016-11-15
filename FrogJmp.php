@@ -44,8 +44,9 @@ function solution($X, $Y, $D) {
 
 ▶ example
 example test ✔OK
-expand allCorrectness tests
-▶ simple1 
+1. 0.021 s OK
+collapse allCorrectness tests
+▶ simple1
 simple test ✔OK
 1. 0.021 s OK
 2. 0.021 s OK
@@ -54,18 +55,26 @@ simple test ✔OK
 2. 0.022 s OK
 ▶ extreme_position
 no jump needed ✔OK
+1. 0.021 s OK
+2. 0.021 s OK
 ▶ small_extreme_jump
 one big jump ✔OK
-expand allPerformance tests
+1. 0.021 s OK
+collapse allPerformance tests
 ▶ many_jump1
 many jumps, D = 2 ✔OK
+1. 0.022 s OK
 ▶ many_jump2
 many jumps, D = 99 ✔OK
+1. 0.021 s OK
 ▶ many_jump3
 many jumps, D = 1283 ✔OK
+1. 0.021 s OK
 ▶ big_extreme_jump
 maximal number of jumps ✔OK
+1. 0.021 s OK
 ▶ small_jumps
-many small jumps
+many small jumps ✔OK
+1. 0.021 s OK
 
 */
